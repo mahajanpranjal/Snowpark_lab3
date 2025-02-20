@@ -6,6 +6,8 @@ from snowflake.snowpark.functions import count_distinct,col,sum
 import snowflake.permissions as permission
 from sys import exit
 
+
+# Call the function
 st.set_page_config(layout="wide")
 session = get_active_session()
 
